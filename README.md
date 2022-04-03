@@ -14,4 +14,4 @@
 ### Console.log() best use case
 
 - [x] different types of log
-- [ ]
+- [x] custom logger object
