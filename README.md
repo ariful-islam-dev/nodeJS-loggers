@@ -9,3 +9,4 @@
 - [ ] bunyan
 - [ ] pino
 - [ ] loglavel
+- [x] ELK Stack
