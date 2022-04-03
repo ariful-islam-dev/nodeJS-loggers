@@ -15,3 +15,4 @@
 
 - [x] different types of log
 - [x] custom logger object
+- [x] console.log is not perfect tool
