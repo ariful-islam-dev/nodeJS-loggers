@@ -1,6 +1,6 @@
 # NodeJS Logger
 
-**_Backend_**u
+**_Backend_**
 
 ### Build in Library
 
@@ -10,3 +10,8 @@
 - [ ] pino
 - [ ] loglavel
 - [x] ELK Stack
+
+### Console.log() best use case
+
+- [x] different types of log
+- [ ]
