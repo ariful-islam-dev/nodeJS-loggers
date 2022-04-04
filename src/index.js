@@ -31,8 +31,10 @@ app.get("/", (req, res) => {
  return res.status(200).json({ message: "Welcome" });
 });
 
+logger.error('Something wen wrong')
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
-  logger.log(`Server is listening on port ${PORT}`);
+  logger.log(`info`,`Server is listening on port ${PORT}`);
 });
 
