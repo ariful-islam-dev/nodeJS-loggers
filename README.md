@@ -11,8 +11,8 @@
 - [ ] loglavel
 - [x] ELK Stack
 
-### Console.log() best use case
+### Morgan (logger) Configuration
 
-- [x] different types of log
-- [x] custom logger object
-- [x] console.log is not perfect tool
+- [x] What is Morgan
+- [x] Basic Configuration
+- [ ] Format log messages
