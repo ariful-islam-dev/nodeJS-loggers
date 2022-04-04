@@ -15,8 +15,16 @@ morgan.token('request-id', (req, res)=>{
   return req.id
 })
 
-app.use(morgan(":date[iso] | :method | :url | :status | :response-time[4]ms | Random Number :random || Request id- :request-id"))
+// app.use(morgan(":date[iso] | :method | :url | :status | :response-time[4]ms | Random Number :random || Request id- :request-id"))
 
+app.use(morgan((tokens, req, res)=>{
+  return JSON.stringify({
+    method: tokens['method'](req, res),
+    status: tokens['status'](req, res),
+    random: tokens['random'](req, res),
+    requestId: tokens['request-id'](req, res)
+  })
+}))
 
 app.get("/", (req, res) => {
   // logger.log(`${req.method} -${req.url} - ${new Date().toISOString()}`);
