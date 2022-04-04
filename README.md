@@ -15,4 +15,4 @@
 
 - [x] What is Morgan
 - [x] Basic Configuration
-- [ ] Format log messages
+- [x] Format log messages
