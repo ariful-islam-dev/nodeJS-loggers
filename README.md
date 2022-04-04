@@ -18,3 +18,5 @@
 - [x] Log formats
 - [x] Log levels
 - [x] Log transport
+- [x] Development VS Production configuration
+- [ ] Final test

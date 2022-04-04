@@ -15,7 +15,7 @@ const accessLogStream = fs.createWriteStream(path.resolve('logs', 'access.log'),
 const useMorgan = (app)=>{
     
     if(process.env.NODE_ENV && process.env.NODE_ENV === 'production'){
-        console.log(process.env.NODE_ENV.length);
+       
        app.use(morgan(prodFormat, {stream: accessLogStream}))
     }else{
         app.use(morgan('dev', {

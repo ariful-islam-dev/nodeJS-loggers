@@ -33,6 +33,7 @@ app.get("/", (req, res) => {
 
 logger.error('Something wen wrong')
 logger.debug('It is debug')
+logger.warn('I want you to learn NodeJS')
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
