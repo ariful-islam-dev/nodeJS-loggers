@@ -16,4 +16,5 @@
 - [x] What is Morgan
 - [x] Basic Configuration
 - [x] Format log messages
-- [ ] morgan json formate
+- [x] morgan json formate
+- [x] morgan dev configuration
