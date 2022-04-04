@@ -11,7 +11,7 @@ const winston = require("winston");
 const format = winston.format;
 
 const logger = winston.createLogger({
-  level: "info",
+  level: "debug",
   format: format.combine(
    format.colorize(),
    format.timestamp(),

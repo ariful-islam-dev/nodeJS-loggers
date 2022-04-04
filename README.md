@@ -16,3 +16,4 @@
 - [x] What is Winston
 - [x] Basic configurations
 - [x] Log formats
+- [ ] Log levels
