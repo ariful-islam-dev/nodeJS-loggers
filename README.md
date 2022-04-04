@@ -14,4 +14,5 @@
 ### Winston (logger) Configuration
 
 - [x] What is Winston
-- [ ] Basic configurations
+- [x] Basic configurations
+- [x] Log formats
