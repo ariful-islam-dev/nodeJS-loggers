@@ -21,7 +21,11 @@ const logger = winston.createLogger({
     return `${ts} ${level}: ${message} ${Object.keys(args).length ? JSON.stringify(args, null, 2): ''}`
    })
   ),
-  transports: new winston.transports.Console(),
+  transports: [new winston.transports.Console(),  new winston.transports.File({
+    filename: 'error.log',
+    level: 'error',
+    format: winston.format.json()
+  }),]
 });
 
 module.exports = logger;
