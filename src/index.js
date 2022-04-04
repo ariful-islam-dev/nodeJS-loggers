@@ -10,7 +10,9 @@ app.use((req, _res, next)=>{
   next()
 })
 
-useMorgan(app);
+useMorgan(app)
+
+
 
 
 // app.use(morgan(":date[iso] | :method | :url | :status | :response-time[4]ms | Random Number :random || Request id- :request-id"))

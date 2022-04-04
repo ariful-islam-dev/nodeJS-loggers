@@ -17,4 +17,6 @@
 - [x] Basic Configuration
 - [x] Format log messages
 - [x] morgan json formate
-- [x] morgan dev configuration
+- [x] morgan development configuration
+- [x] morgan production configuration
+- [ ] morgan production configure issue fixed
